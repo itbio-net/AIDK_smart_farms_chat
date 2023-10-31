@@ -12,7 +12,7 @@ config :logger, level: :warn
 # Configure your database
 config :chat, Chat.Repo,
   username: "postgres",
-  password: "",
+  password: "postgres",
   database: "chat_test",
   hostname: "db",
   pool: Ecto.Adapters.SQL.Sandbox
