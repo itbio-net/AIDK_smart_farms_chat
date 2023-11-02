@@ -1,6 +1,6 @@
 # Developing a step-by-step web chat with Elixir and Phoenix Framework
 
-Developed live during a workshop at [T3chFest 2019](https://t3chfest.uc3m.es/2019/learn-with-t3chfest/introduccion-elixir-phoenix-framwork-desarrollando-chat-paso-paso/)
+Developed live during a workshop at [AIDK.org Teams](https://t3chfest.uc3m.es/2019/learn-with-t3chfest/introduccion-elixir-phoenix-framwork-desarrollando-chat-paso-paso/)
 
 
 ### Show me the step-by-step guide!
@@ -51,6 +51,6 @@ Open a terminal and check:
 1. Install dependencies: `mix deps.get`
 2. Check PostgreSQL credentials at config directory (`config/dev.exs`), create and migrate your database with `mix ecto.create && mix ecto.migrate`
 3. Install Node.js dependencies with `cd assets && npm install`
-4. Start the appliation: `mix phx.server` 
+4. Start the appliation: `iex -S mix phx.server` 
 
 You can visit [http://localhost:4000](http://localhost:4000) to play with the chat, it's recommended open the app in two separate browser windows to try it (if your machine only has one browser try using an "incognito" tab).
